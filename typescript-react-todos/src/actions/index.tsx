@@ -1,7 +1,6 @@
 import { ADD_TODO, SET_VISIBILITY_FILTER, TOGGLE_TODO } from '../constants';
 import { VisibilityFilters } from '../types';
 
-
 let nextTodoId = 0;
 
 export interface IAddTodoAction {

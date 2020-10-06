@@ -6,7 +6,6 @@ import Link from '../../components/link';
 import { IStoreState, VisibilityFilters } from '../../types';
 import { ReactNode } from 'react';
 
-
 interface IProps {
     filter: VisibilityFilters,
     children: ReactNode

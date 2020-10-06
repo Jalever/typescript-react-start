@@ -2,7 +2,6 @@ import { TodoAction } from '../actions';
 import { ADD_TODO, TOGGLE_TODO } from '../constants';
 import { Todo } from '../types';
 
-
 const todos = (state: Todo[] = [], action: TodoAction) => {
     switch (action.type) {
         case ADD_TODO:
